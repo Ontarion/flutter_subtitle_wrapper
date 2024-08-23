@@ -93,7 +93,7 @@ class _TextContent extends StatelessWidget {
       key: ViewKeys.subtitleTextContent,
       textAlign: TextAlign.center,
       style: textStyle,
-      maxLines: 3,
+      maxLines: 5,
     );
   }
 }
