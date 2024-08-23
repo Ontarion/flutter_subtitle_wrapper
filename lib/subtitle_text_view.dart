@@ -88,11 +88,12 @@ class _TextContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return Flexible(
+      child: Text(
       text,
       key: ViewKeys.subtitleTextContent,
       textAlign: TextAlign.center,
       style: textStyle,
-    );
+    ));
   }
 }
